@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    color: red;
+    animation: chicas 1s ease-in-out infinite;
+    
+}
+
+header{
+    background-image: url(foicinha.gif);
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content:space-between;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    
+}
+#logo{
+    height: 200px;
+}
+
+#lista{
+    color: white;  
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+li{
+    padding: 20px;
+    list-style: none;
+    font-size: 40px;
+    background-color: black;
+    margin: 10px;
+    border: 2px solid red;
+}
+
+main{
+    background-image: linear-gradient(to top,black,red);
+    padding: 20px;
+}
+
+section{
+    background-color: red;
+}
+
+footer{
+    background-color: red;
+}
+
+@keyframes chicas{
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+#quemManda{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+h1{
+    color: white;
+}
+
+#tituluzin{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px white;
+    transition: all 0.5s ease-in-out;
+   
+}
+#tituluzin:hover{
+    transform: scale(1.1);
+}
+
+#primeiro{
+    color: white;
+    margin-left: 270px;
+}
+
+#secao{
+    background-image: url(imagem2.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+#oio1{
+animation:oinho 6s ease-in-out infinite ;
+}
+
+@keyframes oinho{
+    0%{
+        transform: translate(0px);
+        transform: rotate(0deg);
+        
+    }
+    50%{
+        transform: translate(100px);
+        transform: rotate(360deg);
+        
+    }
+    75%{
+        transform: translate(-100px);
+        transform: rotate(-360deg);
+        
+    }
+    100%{
+        transform: translate(0px);
+        transform: rotate(0deg);
+        
+    }
+}
+
+
